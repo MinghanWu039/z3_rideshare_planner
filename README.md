@@ -8,7 +8,7 @@ PyPI: https://pypi.org/project/z3-rideshare-planner/
 
 This Python package provides a planner that takes in the names and addresses of multiple passengers and drivers, and the address of a destination, and gives a plan which minimizes the time for pickup process.
 
-This package utilizes [[https://www.microsoft.com/en-us/research/project/z3-3/|Microsoft Z3 Solver]] and [[https://developers.google.com/maps|Google Map API]].
+This package utilizes [[https://www.microsoft.com/en-us/research/project/z3-3/ | Microsoft Z3 Solver]] and [[https://developers.google.com/maps | Google Map API]].
 
 ## Google Map API Key
 
