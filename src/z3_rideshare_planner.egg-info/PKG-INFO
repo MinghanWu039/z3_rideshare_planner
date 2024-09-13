@@ -1,6 +1,6 @@
 Metadata-Version: 2.1
 Name: z3_rideshare_planner
-Version: 0.4.4
+Version: 0.4.5
 Summary: A rideshare planner that gives an optimal plan for multiple drivers and passengers using Z3 Solver
 Home-page: https://github.com/MinghanWu039/z3_rideshare_planner
 Author: Travis Wu
@@ -63,7 +63,7 @@ If a plan is found, prints "Plan found!". Otherwise, raises ValueError.
 - ```Planner.print_plan(self)```
 If a plan has been found, print the plan in the string format.
 
-- ```visualize(self, output_mode='html', relative_path=None, colormap='Set1')```
+- ```Planner.visualize_plan(self, output_mode='html', relative_path=None, colormap='Set1')```
 If a plan has been found, visualize it with interactive features.
 
     - ```output_mode```: If ```output_mode='html'```, save the visualization as an html file at ```relative_path```; If ```output_mode='display'```, returns a ```folium.Figure``` object

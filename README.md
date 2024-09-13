@@ -1,5 +1,9 @@
 # Z3 Rideshare Planner
 
+Github: https://github.com/MinghanWu039/z3_rideshare_planner/tree/main
+
+PyPI: https://pypi.org/project/z3-rideshare-planner/
+
 ## Introduction
 
 This Python package provides a planner that takes in the names and addresses of multiple passengers and drivers, and the address of a destination, and gives a plan which minimizes the time for pickup process.
@@ -42,7 +46,7 @@ If a plan is found, prints "Plan found!". Otherwise, raises ValueError.
 - ```Planner.print_plan(self)```
 If a plan has been found, print the plan in the string format.
 
-- ```visualize(self, output_mode='html', relative_path=None, colormap='Set1')```
+- ```Planner.visualize_plan(self, output_mode='html', relative_path=None, colormap='Set1')```
 If a plan has been found, visualize it with interactive features.
 
     - ```output_mode```: If ```output_mode='html'```, save the visualization as an html file at ```relative_path```; If ```output_mode='display'```, returns a ```folium.Figure``` object

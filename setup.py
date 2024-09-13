@@ -2,7 +2,7 @@ from setuptools import setup, find_packages
 
 setup(
     name='z3_rideshare_planner',
-    version='0.4.4',
+    version='0.4.5',
     author='Travis Wu',
     author_email='traviswu0524@gmail.com',
     description='A rideshare planner that gives an optimal plan for multiple drivers and passengers using Z3 Solver',
